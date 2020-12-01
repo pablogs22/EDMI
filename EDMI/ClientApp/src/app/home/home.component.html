@@ -1,0 +1,27 @@
+<h1>Electric meter</h1>
+<form (ngSubmit)="handleClickSaveData()" [formGroup]="electricMeterFormGroup">
+  <div class="container">
+    <div class="col-4">
+      <label for="id">Id:</label>
+      <input type="text" formControlName="id">
+    </div>
+    <div class="col-4">
+      <label for="id">Serial Number:</label>
+      <input type="text" formControlName="serialNumber">
+    </div>
+    <div class="col-4">
+      <label for="id">Firmware Version:</label>
+      <input type="text" formControlName="firmwareVersion">
+    </div>
+    <div class="col-4">
+      <label for="id">State:</label>
+      <input type="text" formControlName="state">
+    </div>
+    <div class="col-4">
+      <button type="submit" class="btn btn-primary">Save Data</button>
+    </div>
+  </div>
+  <div *ngIf="showAlert" style="color: green;">
+    Successfully saved data
+  </div>
+</form>

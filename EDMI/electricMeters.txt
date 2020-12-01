@@ -1,0 +1,6 @@
+Id: k, Serial Number: k, Firmware Version: k, State: k 
+Id: , Serial Number: , Firmware Version: , State:  
+Id: id, Serial Number: sn, Firmware Version: fv, State: s 
+Id: p, Serial Number: p, Firmware Version: p, State: p 
+Id: , Serial Number: , Firmware Version: , State:  
+Id: , Serial Number: , Firmware Version: , State:  
